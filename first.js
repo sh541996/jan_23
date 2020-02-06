@@ -1,11 +1,5 @@
-function fun() {
-    var x = 100;
-    if (true) {
-        var y = 200;
-        console.log('x diclierd Globally : ' + x);
-        console.log('y diclierd inside if block : ' + y);
-    }
-    console.log('x diclierd Globally : ' + x);
-    console.log('y diclierd inside if block : ' + y);
+function add(a, b) {
+    return a + b;
 }
-fun();
+var result = add(10, 20);
+console.log(result);
